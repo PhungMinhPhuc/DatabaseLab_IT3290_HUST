@@ -1,0 +1,46 @@
+# === Database Specific Files ===
+# Nếu bạn dùng SQLite, đừng đẩy file database thực thi lên
+*.db
+*.sqlite
+*.sqlite3
+
+# Các file log và file tạm của Database
+*.log
+*.sql.gz
+*.sql.zip
+dump.sql
+
+# === IDE & Editors ===
+# Cấu hình của VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Cấu hình của JetBrains (DataGrip, IntelliJ, PyCharm...)
+.idea/
+
+# Cấu hình của DBeaver (Công cụ quản lý DB phổ biến)
+.dbeaver/
+dbeaver-debug.log
+
+# Cấu hình của Azure Data Studio
+.azuredatastudio/
+
+# === OS Metadata ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Secrets & Environment (Cực kỳ quan trọng) ===
+# Tránh đẩy thông tin kết nối Database (Username, Password) lên GitHub
+.env
+config.json
+credentials.xml
+
+# === Backup & Temp ===
+*.bak
+*.tmp
+*~
