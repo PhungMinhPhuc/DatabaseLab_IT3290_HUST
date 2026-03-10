@@ -6,7 +6,7 @@
 
 ## How to Run
 
-1. Run `setup_env.sql`
+1. Run `setup_env.sql` before executing any new `ex ... .sql` file (if required)
 2. Run `ex ... .sql`
 
 ## Excercises
