@@ -26,15 +26,14 @@ This document contains SQL practice exercises using the **employees** table.
 
 12. Retrieve the first 3 characters of `first_name` from the `employees` table.
 
-13. Write a query to calculate the following expression:
-
-   171 × 214 + 625
+13. Write a query to calculate the following expression: 171 × 214 + 625
 
 14. Retrieve the full name by combining `first_name` and `last_name`.
-
+```
    Example output:
    Ellen Abel  
    Sundar Ande
+```
 
 15. Retrieve `first_name` from `employees` and remove any leading and trailing spaces.
 
