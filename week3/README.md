@@ -7,8 +7,7 @@
 ## How to Run
 
 1. Run `setup_env.sql`
-2. Switch to the `week3` database
-3. Run `ex.sql`
+2. Run `ex ... .sql`
 
 ## Excercises
 1.	Write a SQL statement to create a simple table countries including columns country_id,country_name and region_id.
