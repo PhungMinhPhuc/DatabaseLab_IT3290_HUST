@@ -5,4 +5,6 @@ CREATE TABLE countries (
     CONSTRAINT chk_country_name CHECK (country_name IN ('Italy', 'Indian', 'China'))
 );
 
-SELECT * FROM countries;
+-- INSERT INTO countries VALUES ('1234', 'China', '23952');
+
+-- SELECT * FROM countries;
