@@ -1,5 +1,4 @@
-# Week 4 – SQL Practice (Employees Table)
-
+# Week 4
 This document contains SQL practice exercises using the **employees** table.
 
 1. Display `first_name` and `last_name` using the aliases **"First Name"** and **"Last Name"`.
