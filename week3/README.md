@@ -51,7 +51,6 @@ Assume that the structure of two tables departments and jobs.
 | DEPARTMENT_ID   | decimal(4,0) | NO   | PRI | 0       |       |
 | DEPARTMENT_NAME | varchar(30)  | NO   |     | NULL    |       |
 | MANAGER_ID      | decimal(6,0) | YES  |     | NULL    |       |
-
 | LOCATION_ID     | decimal(4,0) | YES  |     | NULL    |       |
 +-----------------+--------------+------+-----+---------+-------+
 
