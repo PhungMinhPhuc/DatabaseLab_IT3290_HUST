@@ -1,7 +1,7 @@
--- Drop database if it already exists
-DROP DATABASE IF EXISTS week3;
+-- Drop schema if it already exists
+DROP SCHEMA IF EXISTS week3 CASCADE;
 
--- Create a new database
-CREATE DATABASE week3;
+-- Create a new schema
+CREATE SCHEMA week3;
 
--- Note: After running 'setup_env.sql', you MUST switch to the "week3" database, because switching databases inside a query is not supported.
+ALTER ROLE postgres SET search_path TO week3, public;

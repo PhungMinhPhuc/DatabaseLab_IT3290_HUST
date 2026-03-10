@@ -1,7 +1,16 @@
-## Week 3. Create Table
+# Week 3 – Create Table
 
-## Note: After running 'setup_env.sql', you MUST switch to the "week3" database, because switching databases inside a query is not supported.
+## Notes
+- Switching databases inside a query is not supported in VS Code.
+- In most projects, developers avoid creating multiple databases and instead organize data using **schemas**.
 
+## How to Run
+
+1. Run `setup_env.sql`
+2. Switch to the `week3` database
+3. Run `ex.sql`
+
+## Excercises
 1.	Write a SQL statement to create a simple table countries including columns country_id,country_name and region_id.
 2.	Write a SQL statement to create a table named jobs including columns job_id, job_title, min_salary, max_salary and check whether the max_salary amount exceeding the upper limit 25000.
 3.	Write a SQL statement to create a table named countries including columns country_id, country_name and region_id and make sure that no countries except Italy, India and China will be entered in the table.
