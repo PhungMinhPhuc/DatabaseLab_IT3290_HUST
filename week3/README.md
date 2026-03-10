@@ -1,4 +1,6 @@
-## Week 1. Create Table
+## Week 3. Create Table
+
+## Note: After running 'setup_env.sql', you MUST switch to the "week3" database, because switching databases inside a query is not supported.
 
 1.	Write a SQL statement to create a simple table countries including columns country_id,country_name and region_id.
 2.	Write a SQL statement to create a table named jobs including columns job_id, job_title, min_salary, max_salary and check whether the max_salary amount exceeding the upper limit 25000.
